@@ -7,7 +7,7 @@ const Project = () => {
     return (
         <div>
             <div className="mb-2">
-                <Image src={img} width={350} height={300} />
+                <Image src={img} width={350} height={300} alt="img" />
             </div>
             <div>
                 <p className="text-gray-400 mb-4">Static Website</p>

@@ -31,7 +31,7 @@ const Footer = () => {
             </div>
 
             <div>
-                <p className='text-lg mb-2'>Get in Touch. Let's build something incredible together!</p>
+                <p className='text-lg mb-2'>Get in Touch. Let&apos;s build something incredible together!</p>
                 <p className='hover:text-gray-200'>hello@abgmultimedia.com</p>
             </div>
         </footer>
