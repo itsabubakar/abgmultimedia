@@ -16,7 +16,6 @@ const Navbar = () => {
                     <div className="text-white flex items-center">
                         <AiOutlineVideoCameraAdd size={40} />
                         <h2 className="pl-2 text-xl font-bold">ABGMULTIMEDIA</h2>
-                        {/* <li className=""><Link href={'/'}><a>Web Development</a></Link></li> */}
                     </div>
                 </a></Link>
 
@@ -31,7 +30,7 @@ const Navbar = () => {
                 </ol>
 
                 <div className='z-30 xl:hidden' onClick={() => setNav(!nav)}>
-                    {nav ? '' : <AiOutlineMenu size={40} className="text-white text-Moody-blue border-2 rounded p-1" />}
+                    {nav ? '' : <AiOutlineMenu size={30} className="text-white text-Moody-blue border-2 rounded p-1" />}
                 </div>
 
                 {/* Mobile Menu */}

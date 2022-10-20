@@ -13,3 +13,7 @@ body {
     padding-bottom: 8px;
     transition: all 150ms ease-in-out;
 }
+
+.sec-head {
+    @apply text-center text-3xl font-semibold mb-10 md:mb-16;
+}
