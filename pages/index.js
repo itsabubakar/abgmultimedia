@@ -1,3 +1,4 @@
+import Contact from '../components/Contact'
 import Hero from '../components/Hero'
 import Projects from '../components/Projects'
 import Section from '../components/Section'
@@ -23,6 +24,7 @@ export default function App() {
         <Services />
         <SectionImage />
         <Projects />
+        <Contact />
       </Format>
     </div>
   )
