@@ -4,7 +4,7 @@ const Services = () => {
     return (
         <div className="px-5 md:px-20 py-20">
             <h2 className="sec-head">Our Services</h2>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 lg:gap-x-2 gap-y-14 justify-items-center">
+            <div className="grid md:mx-0 sm:grid-cols-2 lg:grid-cols-3 lg:gap-x-2 gap-y-14 gap-x-6 justify-items-center">
                 <Service
                     number={"1"}
                     borderColor={"border-yellow-400"}
