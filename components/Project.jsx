@@ -1,18 +1,18 @@
 import Image from "next/image"
 import Link from "next/link"
-import img from '../public/Images/img-1.jpg'
+import img from '../public/Images/wmmf.png'
 import { BsArrowRight } from 'react-icons/bs'
 
-const Project = () => {
+const Project = ({ imgSrc, name, link }) => {
     return (
-        <div>
-            <div className="mb-2">
-                <Image src={img} width={350} height={300} alt="img" />
+        <div className="">
+            <div className="mb-2 border max-w-[300px]">
+                <Image src={imgSrc} width={300} height={200} alt="img" unoptimized={true} />
             </div>
-            <div>
+            <div className="">
                 <p className="text-gray-400 mb-4">Static Website</p>
-                <h3 className="text-2xl mb-2">Women Mentors & Models Foundation</h3>
-                <Link href="/"><a className="flex items-center gap-x-4 uppercase text-lg hover:text-gray-400">Visit site <BsArrowRight /></a></Link>
+                <h3 className="capitalize text-xl mb-2">{name}</h3>
+                <Link href={link}><a className="flex items-center gap-x-4 uppercase text-lg hover:text-gray-400">Visit site <BsArrowRight /></a></Link>
             </div>
         </div>
     )

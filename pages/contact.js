@@ -8,7 +8,7 @@ const contact = () => {
             <Hero
                 title={"Contact us"}
                 header={"Innovative Solution For Your Business"}
-                btnText={"Schedule a Free Consultation"}
+                btn={false}
             />
             <Contact />
         </Format>

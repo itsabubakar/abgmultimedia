@@ -13,7 +13,7 @@ const Footer = () => {
                     <div>
                         <h2 className='text-xl font-semibold mb-4'>Useful links</h2>
                         <ol className="gap-y-4 flex flex-col  text-white link-hover text-sm">
-                            <li className=""><Link href={'/web'}><a>Web Development</a></Link></li>
+                            <li className=""><Link href={'/web'}><a>Web Design</a></Link></li>
                             <li><Link href={'/video'}><a>Video Production</a></Link></li>
                             <li><Link href={'/prints'}><a>Prints</a></Link></li>
                             <li><Link href={'/audio'}><a>Audio Voiceover</a></Link></li>

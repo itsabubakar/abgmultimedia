@@ -21,7 +21,7 @@ const Navbar = () => {
 
 
                 <ol className="hidden xl:flex pl-10 gap-x-10 items-center  text-white link-hover text-sm">
-                    <li className=""><Link href={'/web'}><a className={router.pathname == "/web" ? "border-b-2 border-b-white pb-2" : ""}>Web Development</a></Link></li>
+                    <li className=""><Link href={'/web'}><a className={router.pathname == "/web" ? "border-b-2 border-b-white pb-2" : ""}>Web Design</a></Link></li>
                     <li><Link href={'/video'}><a className={router.pathname == "/video" ? "border-b-2 border-b-white pb-2" : ""}>Video Production</a></Link></li>
                     <li><Link href={'/prints'}><a className={router.pathname == "/prints" ? "border-b-2 border-b-white pb-2" : ""}>Prints</a></Link></li>
                     <li><Link href={'/audio'}><a className={router.pathname == "/audio" ? "border-b-2 border-b-white pb-2" : ""}>Audio Voiceover</a></Link></li>
@@ -42,7 +42,7 @@ const Navbar = () => {
 
                     <ol className="flex flex-col gap-y-5 items-center uppercase text-gray-700 link-hover">
                         <li className=""><Link href={'/'}><a className={router.pathname == "/" ? "border-b-2 border-b-white pb-2" : ""}>Home</a></Link></li>
-                        <li className=""><Link href={'/web'}><a className={router.pathname == "/web" ? "border-b-2 border-b-white pb-2" : ""}>Web Development</a></Link></li>
+                        <li className=""><Link href={'/web'}><a className={router.pathname == "/web" ? "border-b-2 border-b-white pb-2" : ""}>Web Design</a></Link></li>
                         <li><Link href={'/video'}><a className={router.pathname == "/video" ? "border-b-2 border-b-white pb-2" : ""}>Video Production</a></Link></li>
                         <li><Link href={'/prints'}><a className={router.pathname == "/prints" ? "border-b-2 border-b-white pb-2" : ""}>Prints</a></Link></li>
                         <li><Link href={'/audio'}><a className={router.pathname == "/audio" ? "border-b-2 border-b-white pb-2" : ""}>Audio Voiceover</a></Link></li>
