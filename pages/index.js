@@ -48,7 +48,7 @@ export default function App() {
             number={<ImNewspaper size={25} />}
             borderColor={"border-blue-400"}
             title={"Prints"}
-            text={"ABGMultimedia graphic designers will produce collateral, such as business cards, brochures, vinyl banners, or print advertisements, that commands attention. Even our printing services are reasonably priced and of excellent quality."}
+            text={"ABGMultimedia graphic designers will produce prints such as business cards, brochures, vinyl banners, or print advertisements, that commands attention. Even our printing services are reasonably priced and of excellent quality."}
           />
           <Service
             number={<RiVoiceprintFill size={25} />}
@@ -68,7 +68,7 @@ export default function App() {
           direction={"md:flex-row"}
           header={"Our number one priority is your success."}
           title={"We Value Partnerships and Long-Term Relationships."}
-          text={"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, molestias ratione, perspiciatis laboriosam odio quos dicta soluta ab sit neque unde nemo nihil? Fugit maxime officia suscipit iure similique modi!"}
+          text={"We work with commitment, transparency, and professionalism. In order to establish enduring connections, we look for partners that share our values."}
           img={"https://images.unsplash.com/photo-1627389955646-6596047473d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzZ8fGNvbm5lY3Rpb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"}
         />
         <Projects />

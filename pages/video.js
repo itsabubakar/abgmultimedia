@@ -17,7 +17,7 @@ const video = () => {
             <SectionImage
                 direction={"md:flex-row"}
                 bg={"bg-white"}
-                title={"The power of video."}
+                title={"The power of video"}
                 text={"One of the most effective methods to share your story is through video. The power of video is unrivaled, from drawing new consumers to turning viewers into customers. Why? Because people enjoy watching videos. Your clients would prefer to watch a movie rather than read a wall of text. ABGMultimedia specialize in high-quality manufacturing."}
                 img={"https://images.unsplash.com/photo-1471341971476-ae15ff5dd4ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8dmlkZW8lMjBwcm9kdWN0aW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"}
             />

@@ -35,18 +35,18 @@ const Navbar = () => {
 
                 {/* Mobile Menu */}
 
-                <div className={nav ? "fixed top-0 left-0 right-0 bottom-0 flex flex-col items-center w-full h-screen bg-white  pt-[50px] ease-in-out duration-100" : 'hidden top-0 left-[100%] right-0 bottom-0 flex-col items-center w-full h-screen bg-white  pt-[50px] ease-in-out duration-100'}>
+                <div className={nav ? "fixed top-0 left-0 right-0 bottom-0 flex flex-col items-center w-full h-screen bg-black text-white  pt-[50px] ease-in-out duration-100" : 'hidden top-0 left-[100%] right-0 bottom-0 flex-col items-center w-full h-screen bg-black text-white  pt-[50px] ease-in-out duration-100'}>
                     <div className='mb-4 ml-auto mr-[30px]' onClick={() => setNav(!nav)}>
-                        <AiOutlineClose size={40} className="text-gray-800 border-2 rounded p-1" />
+                        <AiOutlineClose size={40} className="text-white border-2 rounded p-1" />
                     </div>
 
-                    <ol className="flex flex-col gap-y-5 items-center uppercase text-gray-700 link-hover">
-                        <li className=""><Link href={'/'}><a className={router.pathname == "/" ? "border-b-2 border-b-white pb-2" : ""}>Home</a></Link></li>
-                        <li className=""><Link href={'/web'}><a className={router.pathname == "/web" ? "border-b-2 border-b-white pb-2" : ""}>Web Design</a></Link></li>
-                        <li><Link href={'/video'}><a className={router.pathname == "/video" ? "border-b-2 border-b-white pb-2" : ""}>Video Production</a></Link></li>
-                        <li><Link href={'/prints'}><a className={router.pathname == "/prints" ? "border-b-2 border-b-white pb-2" : ""}>Prints</a></Link></li>
-                        <li><Link href={'/audio'}><a className={router.pathname == "/audio" ? "border-b-2 border-b-white pb-2" : ""}>Audio Voiceover</a></Link></li>
-                        <li><Link href={'/contact'}><a className={router.pathname == "/contact" ? "border-b-2 border-b-white pb-2" : ""}>Contact</a></Link></li>
+                    <ol className="flex flex-col gap-y-5 items-center uppercase text-white link-hover">
+                        <li className="" onClick={() => setNav(!nav)}><Link href={'/'}><a className={router.pathname == "/" ? "border-b-2 border-b-white pb-2" : ""}>Home</a></Link></li>
+                        <li className="" onClick={() => setNav(!nav)}><Link href={'/web'}><a className={router.pathname == "/web" ? "border-b-2 border-b-white pb-2" : ""}>Web Design</a></Link></li>
+                        <li onClick={() => setNav(!nav)}><Link href={'/video'}><a className={router.pathname == "/video" ? "border-b-2 border-b-white pb-2" : ""}>Video Production</a></Link></li>
+                        <li onClick={() => setNav(!nav)}><Link href={'/prints'}><a className={router.pathname == "/prints" ? "border-b-2 border-b-white pb-2" : ""}>Prints</a></Link></li>
+                        <li onClick={() => setNav(!nav)}><Link href={'/audio'}><a className={router.pathname == "/audio" ? "border-b-2 border-b-white pb-2" : ""}>Audio Voiceover</a></Link></li>
+                        <li onClick={() => setNav(!nav)}><Link href={'/contact'}><a className={router.pathname == "/contact" ? "border-b-2 border-b-white pb-2" : ""}>Contact</a></Link></li>
                     </ol>
                 </div>
 
