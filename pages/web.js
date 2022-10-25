@@ -6,6 +6,7 @@ import Projects from "../components/Projects"
 
 // icons
 import { FaConnectdevelop } from 'react-icons/fa'
+import Pricing from "../components/Pricing"
 
 const web = () => {
     return (
@@ -34,6 +35,7 @@ const web = () => {
                 text={" We pride ourselves on designing creative user experiences for a mobile customer base. Our team of web designers & developers specialize in responsive, mobile friendly websites."}
                 img={"https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHdlYiUyMGRldmVsb3BlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"}
             />
+            <Pricing />
             <Projects />
         </Format>
     )
